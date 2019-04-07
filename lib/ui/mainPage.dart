@@ -52,11 +52,11 @@ class MainPageState extends State<MainPage> {
             currentIndex: _state,
             items: [
               BottomNavigationBarItem(
-                icon: new Icon(Icons.assignment),
+                icon: new Icon(Icons.list),
                 title: Text("Task"),
               ),
               BottomNavigationBarItem(
-                icon: new Icon(Icons.assignment_turned_in),
+                icon: new Icon(Icons.done_all),
                 title: Text("Complete"),
               ),
             ],
